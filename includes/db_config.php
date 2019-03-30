@@ -1,13 +1,13 @@
 <?php
 //$db_host =  'mysql71.unoeuro.com';
 //$db_user = 'michellerenee_dk';
-//$db_pass = '***REMOVED***';
+//$db_pass = '';
 //$db_name = 'michellerenee_dk_db';
 
-$db_host = 'mysql71.unoeuro.com';
-$db_user = 'michellerenee_dk';
-$db_pass = '***REMOVED***';
-$db_name = 'michellerenee_dk_db_2';
+$db_host = 'localhost'; //'mysql71.unoeuro.com';
+$db_user = 'root'; //'michellerenee_dk';
+$db_pass = ''; //'';
+$db_name = 'plantorama'; //'michellerenee_dk_db_2';
 
 // Opretter forbindelse til databasen med oplysningerne oppe over
 $link = mysqli_connect($db_host, $db_user, $db_pass, $db_name);
